@@ -1,0 +1,9 @@
+language: java
+script: "mvn clean install"
+notifications:
+  email:
+    recipients:
+      - sanjay.madnani@outlook.com
+      - piyushsuryawanshi23@gmail.com
+    on_success: change # default: change
+    on_failure: change # options: [always|never|change]
